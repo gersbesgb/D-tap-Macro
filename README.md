@@ -1,4 +1,4 @@
-# **Minecraft Anchor Macro**
+# **Minecraft Crystal Macro**
 
 An advanced, humanized Python macro for seamless Minecraft Dtaps."
 
